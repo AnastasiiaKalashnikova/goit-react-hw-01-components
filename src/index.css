@@ -1,5 +1,3 @@
 
-
-ul {
-color: #008000;
+li:nth-child(even) {
 }

@@ -1,14 +1,15 @@
 import { Transaction } from "components/Transaction/Transaction"
+import { TitelLine } from "./TransactionHistory.styled"
 
 export const TransactionHistory = ({ items }) => {    
     return (
-    <table className="transaction-history">
+    <table>
     <thead>
-    <tr>
-      <th>Type</th>
-      <th>Amount</th>
-      <th>Currency</th>
-    </tr>
+    <TitelLine>
+      <th>{'Type'.toUpperCase()}</th>
+      <th>{'Amount'.toUpperCase()}</th>
+        <th>{'Currency'.toUpperCase()}</th>
+    </TitelLine>
     </thead>
         <tbody>
             {items.map(item =>

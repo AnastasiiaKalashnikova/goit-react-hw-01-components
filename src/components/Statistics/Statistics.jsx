@@ -3,7 +3,7 @@ import { Container, StatItem, StatList } from "./Statistics.stiled";
 export const Statistics = ({ title, stats }) => {
   return (
     <Container>
-      {title && (<h2 className="title">{title}</h2>)}
+      {title && (<h2>{title.toUpperCase()}</h2>)}
       
 
       <StatList>
