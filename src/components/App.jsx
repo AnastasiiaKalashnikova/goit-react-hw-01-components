@@ -35,8 +35,6 @@ export const App = () => {
       
       <TransactionHistory items={transactions} />
       
-
-      React homework template
     </div>
   );
 };

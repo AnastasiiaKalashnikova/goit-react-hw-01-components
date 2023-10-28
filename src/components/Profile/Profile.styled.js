@@ -5,7 +5,8 @@ text-align: center;
 max-width: 480px;
 padding: 8px;
 border: 2px solid black;
-`;
+margin-top: 40px;
+`
 
 export const Stats = styled.ul`
 display: flex;
