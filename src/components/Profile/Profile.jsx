@@ -1,4 +1,4 @@
-import styled from "styled-components";
+
 import { Description, Stats, Text } from "./Profile.styled";
 
 export const Profile = ({ username, tag, avatar, location, stats: { followers, views, likes } }) => {
