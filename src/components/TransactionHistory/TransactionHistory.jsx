@@ -1,4 +1,4 @@
-import { Transaction } from "components/Transaction.js/Transaction"
+import { Transaction } from "components/Transaction/Transaction"
 
 export const TransactionHistory = ({ items }) => {    
     return (
